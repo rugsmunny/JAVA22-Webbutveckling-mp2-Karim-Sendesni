@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+
+.loginbox {
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+
+.loginbox input {
+    width:100%;
+    margin-bottom:20px;
+}
+
+.loginbox input [type="text"],
+.loginbox input [type="password"],
+.loginbox input [type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+
+    font-size:16px;
+}
+
+.loginbox input [type="submit"] {
+    font-size: 16px;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+
+.h2Error {
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    margin: auto;
+}
